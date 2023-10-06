@@ -4,6 +4,7 @@
  * main - prints the alphabet in lowercase,
  * followed by a new line
  * Return: Always 0 (Sccess)
+ */
  * int main (void)
  * {
  * char ch;
