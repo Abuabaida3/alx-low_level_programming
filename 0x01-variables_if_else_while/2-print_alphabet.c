@@ -1,10 +1,12 @@
 #include <stdio.h>
 
 /**
- * main - prints the alphabet in lowercase,
- * followed by a new line
+ * main - Entery point
+ *
+ * 
  * Return: Always 0 (Sccess)
  */
+
  * int main (void)
  * {
  * char ch;
