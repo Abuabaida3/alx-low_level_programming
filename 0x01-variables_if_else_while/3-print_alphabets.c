@@ -1,22 +1,22 @@
 #include <stdio.h>
 
 /**
- * main - Entery point
+ * main - Entry point
  *
  *
- * Return: Always 0 (Success)
+ * Return: Always 0 (Sucess)
  */
 
 int main(void)
 {
 	char c;
 
-	for (c = 'a'; c <= 'z' ; c++)
+	for (c = 'a' ; c <= 'z' ; c++)
 	{
 		putchar(c);
 	}
 
-	for (c = 'A'; C <= 'Z'; C++)
+	for (c = 'A' ; C <= 'Z' ; C++)
 	{
 		putchar(c);
 	}
