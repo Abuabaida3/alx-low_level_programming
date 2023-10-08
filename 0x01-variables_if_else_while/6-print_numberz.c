@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * int main - prints all singie digit numbers  bas 10 starting from 0;
+ * main - prints all singie digit numbers  bas 10 starting from 0;
  * followed by new line using putchar
  * Rturn: Always 0 (success)
  */
