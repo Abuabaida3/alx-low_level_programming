@@ -1,4 +1,4 @@
-#includ "main.h"
+#include "main.h"
 
 /**
  * rest_to_98 - updates the value of the variable
