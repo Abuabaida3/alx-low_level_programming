@@ -4,7 +4,7 @@
 
 /**
  * main - program that generates random valid
- * passwords for program 101-cracme
+ * passwords for the program 101-cracme
  *
  * Return: Always 0 (Success)
  */
