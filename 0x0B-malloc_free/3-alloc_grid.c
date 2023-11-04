@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
-* **alloc_grid - creates a tow dimensionl array of ints
+* **alloc_grid - creates a tow dimensional array of ints
 * @width: width of the matrix
-* @heidth: height of the matrix
+* @height: height of the matrix
 *
 * Return: pointer to the created matrix (success)
 * or NULL (Error)
