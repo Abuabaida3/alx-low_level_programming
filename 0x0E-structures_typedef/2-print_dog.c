@@ -1,18 +1,24 @@
-#include <stdlib.h>
 #include "dog.h"
+#include <stdio.h>
+
 /**
- * init_dog - initialize struct dog.
- * @d: name of struct
- * @name: name of dog in struct
- * @age: age of dog in struct
- * @owner: name of owner of dog in struct
- */
-void init_dog(struct dog *d, char *name, float age, char *owner)
+* print_dog - prints a dog
+*
+* @d: dog to print
+*
+* Return: void
+*/
+void print_dog(struct dog *d)
 {
-	if (d)
-	{
-		d->name = name;
-		d->age = age;
-		d->owner = owner;
-	}
+if (d == 0)
+return;
+if (d->name == 0)
+printf("name: (nil)\n");
+else
+printf("name: %s\n", d->name);
+printf("Age: %f\n", d->age);
+if (d->owner == 0)
+printf("owner: (nil\n");
+else
+printf("owner: %s\n", d->owner);
 }
