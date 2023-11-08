@@ -3,7 +3,7 @@
 #include "function_pointers.h"
 
 /**
-* main - printes a name as is
+* main - prints a name as is
 * @argc: name of the person
 * @argv: arguments vector,
 *
