@@ -1,10 +1,11 @@
 extern printf
 section .data
 msg: db "hello, holberton",0
-fmt: db "%s", 10, 0
+format: db "%s", 0
 
 section .text
 global main
+extern printf
 main:
 push rbp
 mov rdi,fmt
