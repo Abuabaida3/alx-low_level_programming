@@ -32,7 +32,7 @@ i++;
 }
 
 
-current = temp;
+current = temp->next;
 temp->next = current->next;
 free(current);
 
