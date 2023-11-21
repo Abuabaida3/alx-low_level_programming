@@ -10,8 +10,6 @@ size_t print_listint(const listint_t *h)
 {
 	const listint_t *c;
 	size_t count;
-	if (head == NULL)
-		return (0);
 
 	for (c = h, count = 0; c != NULL; count++, c = c->next)
 		printf("%d\n", c->n);
