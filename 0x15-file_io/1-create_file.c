@@ -10,10 +10,10 @@ int create_file(const char *filename, char *text_content)
 {
 	int fd, rstatus, i;
 
-	if (filename, == NU)
+	if (filename == NULL)
 		return (-1);
 
-	fd = open(filename, o_CREAT | o_WRONLY | oTRUNC, S_IRUSR | SIWUR);
+	fd = open(filename, O_CREAT | O_WRONLY | O_TRUNC, S_IRUSR | S_IWUSR);
 	if (fd == -1)
 		return (-1);
 
@@ -23,7 +23,7 @@ int create_file(const char *filename, char *text_content)
 			;
 		rstatus = write(fd, text_content, i);
 		if (rstatus == -1)
-			return (-1)
+			return (-1);
 	}
 
 	close(fd);
