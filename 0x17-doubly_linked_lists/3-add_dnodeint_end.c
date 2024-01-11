@@ -21,7 +21,7 @@
 			while (aux->next)
 				aux = aux->next;
 			new->prev = aux;
-			new->next = new;
+			aux->next = new;
 		}
 		else
 		{
