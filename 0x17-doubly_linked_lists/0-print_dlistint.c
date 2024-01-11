@@ -13,7 +13,7 @@ size_t print_dlistint(const dlistint_t *h)
 	      while (node)
 	      {
 		      printf("%i\n", node->n);
-		      cont++
+		      cont++;
 			      node = node->next;
 	      }
 
