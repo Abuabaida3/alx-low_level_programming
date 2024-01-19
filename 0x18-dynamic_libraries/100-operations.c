@@ -14,10 +14,10 @@ int mul(int a, int b)
 }
 int div(int a, int b)
 {
-	return (b == 0);
+	return (b == 0);{
 		printf("Error: division by zero\n");
 	return 0;
-	{
+	}
 		return a / b;
 	}
 	int mod(int a, int b){
