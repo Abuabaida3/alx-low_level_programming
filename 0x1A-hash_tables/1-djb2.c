@@ -1,3 +1,4 @@
+#include "hash_tables.h"
 /**
  * hash_djb2 - hash function, takes a string and turns it into a hash numb
  * @str: the string, a constant value unrepeated in the hash table
